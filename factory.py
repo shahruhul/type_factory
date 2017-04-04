@@ -1,8 +1,7 @@
-import imp
 import os
 
 from registry import registry
-from strategies.a import A
+from document_types.a import A
 
 
 def get_type(value):

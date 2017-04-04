@@ -13,8 +13,8 @@ def document_type(cls):
 
 
 def initialize():
-    path = ["strategies"]
-    name = "strategies"
+    path = ["document_types"]
+    name = "document_types"
     for importer, modname, ispkg in pkgutil.walk_packages(path=path, prefix=name+'.'):
         __import__(modname)
 
